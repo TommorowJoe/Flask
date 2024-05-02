@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Python Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Python Portal</h1>
+    </header>
+
+    <section id="login">
+        <form action="/login" method="post">
+            <label for="username">Username</label>
+            <input type="text" name="username" id="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <section id="content">
+        <!-- Content will be displayed here after successful login -->
+    </section>
+
+    <footer>
+        &copy; Copyright 2022
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
